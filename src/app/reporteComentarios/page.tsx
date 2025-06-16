@@ -12,7 +12,7 @@ const ReporteComentarios: React.FC = () =>
 
     useEffect(()=>{
         const obtenerComentarios = async () =>{
-            const respuesta = await axios.get<ReporteComentariosOut>("http://localhost:4321/api/route/Obtener_Comentarios");
+            const respuesta = await axios.get<ReporteComentariosOut>("https://kevinturismo-vlabk-bk-37f306f7255f.herokuapp.com/api/route/Obtener_Comentarios");
             
             if(respuesta.data.codigoRespuesta ===0){
                 setComentarios(respuesta.data.detalle)
