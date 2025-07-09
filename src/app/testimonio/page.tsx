@@ -7,16 +7,21 @@ const TestimonioPage : React.FC = () => {
     const vectorTestimonios = [
 
         {
-            nombre:"Adolfo",
-            comentario:"Muy bueno el servicio, volveré",
+            nombre:"Carlos",
+            comentario:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             imagen: "/Testimonio1.jpg"
         },
 
         {
-            nombre:"Maxwell",
-            comentario:"No me lograron contactar",
+            nombre:"Lucía",
+            comentario:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             imagen: "/Testimonio2.jpg"
         },
+        {
+            nombre:"Andrea",
+            comentario:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            imagen: "/Testimonio3.jpg"
+        }
     ]
     
     return (
